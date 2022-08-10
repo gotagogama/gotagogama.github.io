@@ -39,31 +39,33 @@
 
   <style>
     .container {
-      width: 100%;
-      display: flex;
-    }
-
-    .content {
-      max-width: 670px;
-      margin: 80px auto;
-      padding-left: 20%;
-      padding-right: 20%;
-      justify-content: center;
-      align-items: center;
-      line-height: 28px;
+      max-width: 740px !important;
+      padding: 100px;
+      padding-right: 20px !important;
+      padding-left: 20px !important;
     }
 
     .heading {
       text-align: left;
-      margin-bottom: 45px;
+      margin-bottom: 40px;
+    }
+
+    .heading .en {
+      font-size: 32px;
+      font-weight: bold !important;
+      line-height: 40px !important;
     }
 
     .heading .si {
       font-size: 25px;
+      font-weight: bold !important;
+      line-height: 40px !important;
     }
 
     .heading .ta {
       font-size: 28px;
+      font-weight: bold !important;
+      line-height: 40px !important;
     }
 
     .separator {
@@ -80,6 +82,7 @@
     .si p {
       font-family: 'Noto Serif Sinhala', serif;
       font-size: 14px;
+      line-height: 28px;
     }
 
     si {
@@ -94,6 +97,7 @@
     .en p {
       font-family: 'Abhaya Libre', serif;
       font-size: 19px;
+      line-height: 28px;
     }
 
     en {
@@ -108,6 +112,7 @@
     .ta p {
       font-family: 'Noto Serif Tamil', serif;
       font-size: 16px;
+      line-height: 30px;
     }
 
     ta {
@@ -115,7 +120,39 @@
       font-size: 16px;
     }
 
+    @media only screen and (max-width: 740px) {
+      .container {
+        padding: 30px;
+      }
+
+      .heading {
+        text-align: left;
+        margin-bottom: 28px;
+      }
+
+      .heading .en {
+        font-size: 28px;
+        font-weight: bold !important;
+        line-height: 33px !important;
+      }
+
+      .heading .si {
+        font-size: 21px;
+        font-weight: bold !important;
+        line-height: 33px !important;
+      }
+
+      .heading .ta {
+        font-size: 21px;
+        font-weight: bold !important;
+        line-height: 33px !important;
+      }
+    }
+
   </style>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <!-- Go to www.addthis.com/dashboard to customize your tools -->
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-62f247c637ded92b"></script>
@@ -124,7 +161,7 @@
 <body>
 
   <div class="container">
-    <div class="content">
+    <div class="content col-12">
       <div class="heading">
         <h1 class="en">#Gotagogama_Declaration</h1>
         <h1 class="si">#ගෝඨාගෝගම_ප්‍රකාශනය</h1>
